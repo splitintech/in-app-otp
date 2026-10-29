@@ -16,14 +16,13 @@
   ],
   "author": "SplitInTech, @ojchavan",
   "license": "MIT",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/in-app-otp#readme",
+  "homepage": "https://github.com/splitintech/in-app-otp#readme",
   "bugs": {
-    "url": "https://github.com/splitintech/open-internal-tools/issues"
+    "url": "https://github.com/splitintech/in-app-otp/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "in-app-otp"
+    "url": "git+https://github.com/splitintech/in-app-otp.git"
   },
   "type": "module",
   "sideEffects": false,
@@ -75,7 +74,9 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check:migration": "python3 scripts/check-migration.py",
+    "check:packed": "node scripts/check-packed.mjs"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",

@@ -1,27 +1,14 @@
 # Publishing
 
-`@splitin/in-app-otp` publishes to npm with GitHub OIDC trusted publishing
-and provenance. Do not put an npm token in Actions or in this repository.
+See [repository release setup](repository-release.md) before enabling publishing. Configure npm trusted publishing for repository `splitintech/in-app-otp` and workflow `in-app-otp-publish.yml` for the existing npm package. Preserve package names and publish a new version only when intended. No npm token is required.
 
-## Tag and release
-
-From the hub root, with a clean tree and GPG or SSH signing configured:
+From the standalone repository root, after tests, build and packed-consumer checks pass, create a signed tag matching the package version:
 
 ```bash
-scripts/create-release-tag.sh in-app-otp
-git push origin in-app-otp-v0.1.0
+version=$(node -p "require('./package.json').version")
+node scripts/assert-release-tag.mjs --tag "in-app-otp-v$version" --prefix in-app-otp-v --package package.json
+git tag -s "in-app-otp-v$version" -m "in-app-otp $version"
+git push origin "in-app-otp-v$version"
 ```
 
-The tag must be `in-app-otp-v<semver>` and match `package.json`. Pushing it
-runs `.github/workflows/in-app-otp-publish.yml`, which creates a GitHub
-Release and publishes the version with `--provenance` unless that version
-is already on the registry.
-
-## Trusted publisher (npmjs.com)
-
-Package settings → Trusted Publisher → GitHub Actions:
-
-- Organization: `splitintech`
-- Repository: `open-internal-tools`
-- Workflow filename: `in-app-otp-publish.yml`
-- Allowed action: `npm publish`
+Do this only with a clean working tree and configured Git signing. The workflow requires `NPM_TRUSTED_PUBLISHING_ENABLED=true`, publishes with provenance, and skips versions already in the registry. Existing hub release tags remain historical references.

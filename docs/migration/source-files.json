@@ -1,0 +1,238 @@
+{
+  "source_repository": "https://github.com/splitintech/open-internal-tools",
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "product": "in-app-otp",
+  "files": [
+    {
+      "source": ".github/workflows/in-app-otp-publish.yml",
+      "target": ".github/workflows/in-app-otp-publish.yml",
+      "git_blob": "b2f2bcbc7544fb6149083fd14c407ecfdba49781",
+      "mode": "100644",
+      "sha256": "9da13baa44a80ff64b3511160ff3027697c1c0776ba8859d3816c6f8c10fe903"
+    },
+    {
+      "source": "docs/brand/splitin-logo.png",
+      "target": "docs/brand/splitin-logo.png",
+      "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+      "mode": "100644",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+    },
+    {
+      "source": "in-app-otp/.gitignore",
+      "target": ".gitignore",
+      "git_blob": "007ea8a7ceb5d1545a77b354c04a9b556cd7a5d0",
+      "mode": "100644",
+      "sha256": "33f7674542bd20fa68a65153f9d801b58703004837b2f21ac88a3a642dcfb350"
+    },
+    {
+      "source": "in-app-otp/LICENSE",
+      "target": "LICENSE",
+      "git_blob": "c079cfa5ab82f80aff9bd928f85b7ff80892672c",
+      "mode": "100644",
+      "sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67"
+    },
+    {
+      "source": "in-app-otp/README.md",
+      "target": "README.md",
+      "git_blob": "88e331fbe31e53c1380b4ced4bcff7d00df93155",
+      "mode": "100644",
+      "sha256": "c0f2026ceffb071b983bbe1a40caaf274ee9de46c9af23c2673f2af9079dd787"
+    },
+    {
+      "source": "in-app-otp/docs/banner.webp",
+      "target": "docs/banner.webp",
+      "git_blob": "c7123ebfcb27e5a6f28f4b7c5aa5bcfbe2ea8e19",
+      "mode": "100644",
+      "sha256": "352e4ad3b5ff5e426178f59c1fb9478316e1b315a462e8d771c986d1c8c58932"
+    },
+    {
+      "source": "in-app-otp/docs/publishing.md",
+      "target": "docs/publishing.md",
+      "git_blob": "0458bd46cf277f4853667d42b817a94bf92fa1db",
+      "mode": "100644",
+      "sha256": "da26c8892d9546c660532b7ea10ecfe0267a976862065f890d9936e1c95aa2f1"
+    },
+    {
+      "source": "in-app-otp/examples/django-model.py",
+      "target": "examples/django-model.py",
+      "git_blob": "cb37d12e825cb9360edab99deefd5dbb6e2d1f86",
+      "mode": "100644",
+      "sha256": "2cdf4069b848c22051d906ce99ec035b27eae75ebc127f8b8ad21d73a7541d12"
+    },
+    {
+      "source": "in-app-otp/examples/supabase-edge-function.ts",
+      "target": "examples/supabase-edge-function.ts",
+      "git_blob": "72faed5139b1cbcbdec7dbc0b05976e7071b89d5",
+      "mode": "100644",
+      "sha256": "3752e39caa6616229b0e3f90e8f35e54bf3c582a2889483b3a0ec8a4c74637d1"
+    },
+    {
+      "source": "in-app-otp/package-lock.json",
+      "target": "package-lock.json",
+      "git_blob": "4daff02e23c65207200a5b62c6f782378f2b8e59",
+      "mode": "100644",
+      "sha256": "1806a13b53de365b99f905685d7bd7b1e3c623d3db092d73c5d8cd3d37731c17"
+    },
+    {
+      "source": "in-app-otp/package.json",
+      "target": "package.json",
+      "git_blob": "434e948f9132cca53ff933ec87a1e00b5121d146",
+      "mode": "100644",
+      "sha256": "80af508550ffd5646c4fc9c6fc503bd6a71713ee39b183950278851444e44149"
+    },
+    {
+      "source": "in-app-otp/src/adapters/express.ts",
+      "target": "src/adapters/express.ts",
+      "git_blob": "24d43e34c6ae1df60eb210ee86969c09ecd66db5",
+      "mode": "100644",
+      "sha256": "d10e763fe80df70340fdbc8e980fd47522a484c297420800cff2862e47e12f5a"
+    },
+    {
+      "source": "in-app-otp/src/adapters/rest.ts",
+      "target": "src/adapters/rest.ts",
+      "git_blob": "fed06d7d15b92d21443e95de26d3e747cdb5f512",
+      "mode": "100644",
+      "sha256": "ca244b69a1a7e939630dfeefbeb5249ab368860361b2d161d7574b8643d72201"
+    },
+    {
+      "source": "in-app-otp/src/adapters/supabase.ts",
+      "target": "src/adapters/supabase.ts",
+      "git_blob": "07feaa84ab4f006d0905c4645c58d44d5789e8ca",
+      "mode": "100644",
+      "sha256": "9538d78f5eadee2e547575a7e664e7567870475732a3206bff12300542470a56"
+    },
+    {
+      "source": "in-app-otp/src/core/crypto.ts",
+      "target": "src/core/crypto.ts",
+      "git_blob": "342db5a8d1b4e0f8e600ac2367825153a165b3bc",
+      "mode": "100644",
+      "sha256": "58836c3cad5916164a925b8716a756329932b24301708c31a835e2500a5d2ff5"
+    },
+    {
+      "source": "in-app-otp/src/core/errors.ts",
+      "target": "src/core/errors.ts",
+      "git_blob": "ee37ad538b3bde7a073d0ae5abf6c97501563127",
+      "mode": "100644",
+      "sha256": "667e7797065f4701c8b6a343a43af412162218282c10c95fc8906d48b7425010"
+    },
+    {
+      "source": "in-app-otp/src/core/sanitize.ts",
+      "target": "src/core/sanitize.ts",
+      "git_blob": "9595dd72a8d446498ddcfaf52dd460d9db3bc2d9",
+      "mode": "100644",
+      "sha256": "343cf0ceeb2ec58b8b1a93a8aad185349e0541eaf2ea9294bd9d671ecfc9baad"
+    },
+    {
+      "source": "in-app-otp/src/core/types.ts",
+      "target": "src/core/types.ts",
+      "git_blob": "0c433f09be31ea3cc250d43847e82b22a2e93310",
+      "mode": "100644",
+      "sha256": "97a0780821b327ae7e98904b5cc1aac7dd9b7d0c2394957bace597be4f37868d"
+    },
+    {
+      "source": "in-app-otp/src/index.ts",
+      "target": "src/index.ts",
+      "git_blob": "1eaeb2afe42a00b2f6b7aeec1f6152efb8062fdf",
+      "mode": "100644",
+      "sha256": "38ec3e37b3aacac2c0a8517dcf3fd91c249ea789d28964e0ab7a0a70c3db716f"
+    },
+    {
+      "source": "in-app-otp/src/react/components.tsx",
+      "target": "src/react/components.tsx",
+      "git_blob": "4f93e1087c503f9d25998529a4103ab70a33ea41",
+      "mode": "100644",
+      "sha256": "3a54a6e6c0fb60661e7ed09eecf6cf8dc1060e7ecd96b76182fe9ee9f3019908"
+    },
+    {
+      "source": "in-app-otp/src/react/hooks.ts",
+      "target": "src/react/hooks.ts",
+      "git_blob": "26c99ea95aaa23f0da7fb124653161f204062a9c",
+      "mode": "100644",
+      "sha256": "2b2b90b2911f38a8e72e1e95e603e52548cd6addc6c1458e603a811afcf88f34"
+    },
+    {
+      "source": "in-app-otp/src/react/index.tsx",
+      "target": "src/react/index.tsx",
+      "git_blob": "fc858b7b09e2d5859e0680c16730be3dc029cdfa",
+      "mode": "100644",
+      "sha256": "885f72124b4e8aac499be721811fa38a144968e65e65df74a38377f007efbb16"
+    },
+    {
+      "source": "in-app-otp/src/server.ts",
+      "target": "src/server.ts",
+      "git_blob": "4cd772fec5718121f6a6c56d274e32e4e4d2a1d3",
+      "mode": "100644",
+      "sha256": "3010a26462785914a0131036dbcfdae4631a2fdf05ce206951d4df3e9efc2ffb"
+    },
+    {
+      "source": "in-app-otp/src/server/memoryStore.ts",
+      "target": "src/server/memoryStore.ts",
+      "git_blob": "ac3b059d544058e6ee6882bfafa5789327bdb13b",
+      "mode": "100644",
+      "sha256": "9c7b3f50aadd047267e7885fc28ad5e6a0f7aa5b8445220870e6ed82ee64e873"
+    },
+    {
+      "source": "in-app-otp/src/server/service.ts",
+      "target": "src/server/service.ts",
+      "git_blob": "d8a9d9160629d78b64e0f0a1c189e03952dec397",
+      "mode": "100644",
+      "sha256": "b92ca8e6bc2c407da4b22291e406598b4e2e10b34633cab2c45768888ae33c29"
+    },
+    {
+      "source": "in-app-otp/tests/adapters.test.ts",
+      "target": "tests/adapters.test.ts",
+      "git_blob": "38244a3368576e7d122c1a56f4614e3aad226c7f",
+      "mode": "100644",
+      "sha256": "4f752c20b142ccaf21a050d98e630cb5c0b8c120fad93df02e9a22ef664535a3"
+    },
+    {
+      "source": "in-app-otp/tests/core.test.ts",
+      "target": "tests/core.test.ts",
+      "git_blob": "0356039f6258d232e5c5283614dd0c1e7be41157",
+      "mode": "100644",
+      "sha256": "471870c7b2e7e03be8a64104f7bed475d7e9b33bb95f38e9965916478ffa9e8a"
+    },
+    {
+      "source": "in-app-otp/tests/react.test.tsx",
+      "target": "tests/react.test.tsx",
+      "git_blob": "115391fa0518304684d3d3c1b6ab0a70e286bf0a",
+      "mode": "100644",
+      "sha256": "c281c254fc0d8feb4e3e798da298aaf5acbf5a96a2a35f3d32dd9a7f259957ad"
+    },
+    {
+      "source": "in-app-otp/tsconfig.json",
+      "target": "tsconfig.json",
+      "git_blob": "164f77b7d53ca3e32335a8e67788ea944300a053",
+      "mode": "100644",
+      "sha256": "aafa4222667f29a60d1d7f99faee5da0fed3e778f7f366ee0a571683ac7ee22b"
+    },
+    {
+      "source": "in-app-otp/tsup.config.ts",
+      "target": "tsup.config.ts",
+      "git_blob": "3132a818846b2623878ce442c4460b09e0c61076",
+      "mode": "100644",
+      "sha256": "0e7915a69160060d491fee149811e2811bd2be040612c159954534d358fe16d1"
+    },
+    {
+      "source": "in-app-otp/vitest.config.ts",
+      "target": "vitest.config.ts",
+      "git_blob": "31b7078d3b06829bb70fb505e763646f508b1ad2",
+      "mode": "100644",
+      "sha256": "d74ae78dd2fc37e2c6cf0d7d6f355d84145edc5e53890a6824afcdbcb5260c50"
+    },
+    {
+      "source": "scripts/assert-release-tag.mjs",
+      "target": "scripts/assert-release-tag.mjs",
+      "git_blob": "15d8bcd982dc7ede03be3d62179181aed1066b0f",
+      "mode": "100755",
+      "sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606"
+    },
+    {
+      "source": "scripts/oidc-npm-publish.mjs",
+      "target": "scripts/oidc-npm-publish.mjs",
+      "git_blob": "dde682ea4b5c0119a057f1002e86f09614bf569f",
+      "mode": "100755",
+      "sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad"
+    }
+  ]
+}

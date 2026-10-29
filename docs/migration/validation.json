@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29",
+  "checks_passed": [
+    "17 Vitest tests",
+    "ESM/CJS and declaration build",
+    "6 packed exports imported in ESM and CJS",
+    "migration source/hash inventory",
+    "local Markdown links"
+  ],
+  "not_performed": [
+    "npm or marketplace publication",
+    "live provider actions"
+  ]
+}

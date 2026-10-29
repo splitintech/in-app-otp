@@ -1,0 +1,236 @@
+{
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "files": [
+    {
+      "path": ".github/workflows/in-app-otp-publish.yml",
+      "sha256": "9da89d52aa5e45a01da897735175f6956d2a0e5d28aa406c61f4525682848cb6",
+      "source_sha256": "9da13baa44a80ff64b3511160ff3027697c1c0776ba8859d3816c6f8c10fe903",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "docs/brand/splitin-logo.png",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "source_sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "ec9122442599a37ceee39cb69ef10a8ed4b58a8225fb4fbf3330a0b0b3d82920",
+      "source_sha256": "33f7674542bd20fa68a65153f9d801b58703004837b2f21ac88a3a642dcfb350",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67",
+      "source_sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "26dd0403bd84773094f62420f38e51f064960bd1f6bd81f2cf7d228d9d74e462",
+      "source_sha256": "c0f2026ceffb071b983bbe1a40caaf274ee9de46c9af23c2673f2af9079dd787",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "docs/banner.webp",
+      "sha256": "352e4ad3b5ff5e426178f59c1fb9478316e1b315a462e8d771c986d1c8c58932",
+      "source_sha256": "352e4ad3b5ff5e426178f59c1fb9478316e1b315a462e8d771c986d1c8c58932",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/publishing.md",
+      "sha256": "b12b823cacdfe74c22762bfc0db813b3b68c027c8bd08ec259c42231e9ae5212",
+      "source_sha256": "da26c8892d9546c660532b7ea10ecfe0267a976862065f890d9936e1c95aa2f1",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "examples/django-model.py",
+      "sha256": "2cdf4069b848c22051d906ce99ec035b27eae75ebc127f8b8ad21d73a7541d12",
+      "source_sha256": "2cdf4069b848c22051d906ce99ec035b27eae75ebc127f8b8ad21d73a7541d12",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "examples/supabase-edge-function.ts",
+      "sha256": "3752e39caa6616229b0e3f90e8f35e54bf3c582a2889483b3a0ec8a4c74637d1",
+      "source_sha256": "3752e39caa6616229b0e3f90e8f35e54bf3c582a2889483b3a0ec8a4c74637d1",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1806a13b53de365b99f905685d7bd7b1e3c623d3db092d73c5d8cd3d37731c17",
+      "source_sha256": "1806a13b53de365b99f905685d7bd7b1e3c623d3db092d73c5d8cd3d37731c17",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "package.json",
+      "sha256": "18ee6a357eb791d05de8b8e96ba00ec04080d3d8bd279808ba73dc4401e44669",
+      "source_sha256": "80af508550ffd5646c4fc9c6fc503bd6a71713ee39b183950278851444e44149",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "src/adapters/express.ts",
+      "sha256": "d10e763fe80df70340fdbc8e980fd47522a484c297420800cff2862e47e12f5a",
+      "source_sha256": "d10e763fe80df70340fdbc8e980fd47522a484c297420800cff2862e47e12f5a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/adapters/rest.ts",
+      "sha256": "ca244b69a1a7e939630dfeefbeb5249ab368860361b2d161d7574b8643d72201",
+      "source_sha256": "ca244b69a1a7e939630dfeefbeb5249ab368860361b2d161d7574b8643d72201",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/adapters/supabase.ts",
+      "sha256": "9538d78f5eadee2e547575a7e664e7567870475732a3206bff12300542470a56",
+      "source_sha256": "9538d78f5eadee2e547575a7e664e7567870475732a3206bff12300542470a56",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/core/crypto.ts",
+      "sha256": "58836c3cad5916164a925b8716a756329932b24301708c31a835e2500a5d2ff5",
+      "source_sha256": "58836c3cad5916164a925b8716a756329932b24301708c31a835e2500a5d2ff5",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/core/errors.ts",
+      "sha256": "667e7797065f4701c8b6a343a43af412162218282c10c95fc8906d48b7425010",
+      "source_sha256": "667e7797065f4701c8b6a343a43af412162218282c10c95fc8906d48b7425010",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/core/sanitize.ts",
+      "sha256": "343cf0ceeb2ec58b8b1a93a8aad185349e0541eaf2ea9294bd9d671ecfc9baad",
+      "source_sha256": "343cf0ceeb2ec58b8b1a93a8aad185349e0541eaf2ea9294bd9d671ecfc9baad",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/core/types.ts",
+      "sha256": "97a0780821b327ae7e98904b5cc1aac7dd9b7d0c2394957bace597be4f37868d",
+      "source_sha256": "97a0780821b327ae7e98904b5cc1aac7dd9b7d0c2394957bace597be4f37868d",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "38ec3e37b3aacac2c0a8517dcf3fd91c249ea789d28964e0ab7a0a70c3db716f",
+      "source_sha256": "38ec3e37b3aacac2c0a8517dcf3fd91c249ea789d28964e0ab7a0a70c3db716f",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/react/components.tsx",
+      "sha256": "3a54a6e6c0fb60661e7ed09eecf6cf8dc1060e7ecd96b76182fe9ee9f3019908",
+      "source_sha256": "3a54a6e6c0fb60661e7ed09eecf6cf8dc1060e7ecd96b76182fe9ee9f3019908",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/react/hooks.ts",
+      "sha256": "2b2b90b2911f38a8e72e1e95e603e52548cd6addc6c1458e603a811afcf88f34",
+      "source_sha256": "2b2b90b2911f38a8e72e1e95e603e52548cd6addc6c1458e603a811afcf88f34",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/react/index.tsx",
+      "sha256": "885f72124b4e8aac499be721811fa38a144968e65e65df74a38377f007efbb16",
+      "source_sha256": "885f72124b4e8aac499be721811fa38a144968e65e65df74a38377f007efbb16",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/server.ts",
+      "sha256": "3010a26462785914a0131036dbcfdae4631a2fdf05ce206951d4df3e9efc2ffb",
+      "source_sha256": "3010a26462785914a0131036dbcfdae4631a2fdf05ce206951d4df3e9efc2ffb",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/server/memoryStore.ts",
+      "sha256": "9c7b3f50aadd047267e7885fc28ad5e6a0f7aa5b8445220870e6ed82ee64e873",
+      "source_sha256": "9c7b3f50aadd047267e7885fc28ad5e6a0f7aa5b8445220870e6ed82ee64e873",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/server/service.ts",
+      "sha256": "b92ca8e6bc2c407da4b22291e406598b4e2e10b34633cab2c45768888ae33c29",
+      "source_sha256": "b92ca8e6bc2c407da4b22291e406598b4e2e10b34633cab2c45768888ae33c29",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tests/adapters.test.ts",
+      "sha256": "4f752c20b142ccaf21a050d98e630cb5c0b8c120fad93df02e9a22ef664535a3",
+      "source_sha256": "4f752c20b142ccaf21a050d98e630cb5c0b8c120fad93df02e9a22ef664535a3",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tests/core.test.ts",
+      "sha256": "471870c7b2e7e03be8a64104f7bed475d7e9b33bb95f38e9965916478ffa9e8a",
+      "source_sha256": "471870c7b2e7e03be8a64104f7bed475d7e9b33bb95f38e9965916478ffa9e8a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tests/react.test.tsx",
+      "sha256": "c281c254fc0d8feb4e3e798da298aaf5acbf5a96a2a35f3d32dd9a7f259957ad",
+      "source_sha256": "c281c254fc0d8feb4e3e798da298aaf5acbf5a96a2a35f3d32dd9a7f259957ad",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "aafa4222667f29a60d1d7f99faee5da0fed3e778f7f366ee0a571683ac7ee22b",
+      "source_sha256": "aafa4222667f29a60d1d7f99faee5da0fed3e778f7f366ee0a571683ac7ee22b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tsup.config.ts",
+      "sha256": "0e7915a69160060d491fee149811e2811bd2be040612c159954534d358fe16d1",
+      "source_sha256": "0e7915a69160060d491fee149811e2811bd2be040612c159954534d358fe16d1",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "d74ae78dd2fc37e2c6cf0d7d6f355d84145edc5e53890a6824afcdbcb5260c50",
+      "source_sha256": "d74ae78dd2fc37e2c6cf0d7d6f355d84145edc5e53890a6824afcdbcb5260c50",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/assert-release-tag.mjs",
+      "sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606",
+      "source_sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606",
+      "mode": "100755",
+      "change": null
+    },
+    {
+      "path": "scripts/oidc-npm-publish.mjs",
+      "sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad",
+      "source_sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad",
+      "mode": "100755",
+      "change": null
+    }
+  ]
+}

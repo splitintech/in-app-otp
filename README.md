@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../docs/brand/splitin-logo.png" alt="SplitIn logo" width="96" height="96">
+  <img src="docs/brand/splitin-logo.png" alt="SplitIn logo" width="96" height="96">
 </p>
 
 <h1 align="center">@splitin/in-app-otp</h1>
@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/splitintech/open-internal-tools/blob/main/in-app-otp/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
+  <a href="https://github.com/splitintech/in-app-otp/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
   <a href="https://www.npmjs.com/package/@splitin/in-app-otp"><img src="https://img.shields.io/badge/npm-@splitin/in--app--otp-cb3837" alt="npm package"></a>
-  <a href="https://github.com/splitintech/open-internal-tools/tree/main/in-app-otp"><img src="https://img.shields.io/badge/product-open--internal--tools-orange" alt="Open Internal Tools"></a>
+  <a href="https://github.com/splitintech/in-app-otp"><img src="https://img.shields.io/badge/product-open--internal--tools-orange" alt="Open Internal Tools"></a>
 </p>
 
 <p align="center">
-  <a href="../README.md">Hub</a>
+  <a href="https://github.com/splitintech/open-internal-tools">Hub</a>
   ·
   <a href="#getting-started">Docs</a>
   ·
@@ -71,8 +71,8 @@ npm install @splitin/in-app-otp
 From this hub:
 
 ```sh
-git clone https://github.com/splitintech/open-internal-tools.git
-cd open-internal-tools/in-app-otp
+git clone https://github.com/splitintech/in-app-otp.git
+cd in-app-otp
 npm install
 npm run build
 npm test
@@ -220,7 +220,7 @@ The guide initiates the live-tour start, the renter sees the OTP in-app, and the
 
 ## Careers
 
-This folder is product-tech an individual contributor owns end to end. SplitIn engineering: **Tech 51%. Business 50.** We invest **45% as R&D** back to the open-source tools SplitIn uses. MVP first, then merge with tests, trust-me-bro benchmarks, and live user tests. We build fast and then refine — every contributor brings an acquaintance after building the building blocks of the architecture. Every project would be allotted funds. Full mission and stack: [splitin.net/tech-stack](https://www.splitin.net/tech-stack). Hub: [open-internal-tools](../README.md).
+This folder is product-tech an individual contributor owns end to end. SplitIn engineering: **Tech 51%. Business 50.** We invest **45% as R&D** back to the open-source tools SplitIn uses. MVP first, then merge with tests, trust-me-bro benchmarks, and live user tests. We build fast and then refine — every contributor brings an acquaintance after building the building blocks of the architecture. Every project would be allotted funds. Full mission and stack: [splitin.net/tech-stack](https://www.splitin.net/tech-stack). Hub: [open-internal-tools](https://github.com/splitintech/open-internal-tools).
 
 Own this package end to end — or explore SplitIn tech careers — at **[https://www.splitin.net/careers-requests](https://www.splitin.net/careers-requests)**.
 
@@ -230,7 +230,7 @@ Own this package end to end — or explore SplitIn tech careers — at **[https:
 
 ## License
 
-MIT. See [LICENSE](LICENSE). Program rules: [CONTRIBUTING.md](../CONTRIBUTING.md).
+MIT. See [LICENSE](LICENSE). Program rules: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 
 ## SplitIn Dev tools integration
@@ -238,3 +238,8 @@ MIT. See [LICENSE](LICENSE). Program rules: [CONTRIBUTING.md](../CONTRIBUTING.md
 Hosted route: `https://www.splitin.net/dev-tools/otp` (deployment qualification tracked by the host application). Build with Node 24, `npm ci`, `npm run build`, then `npm test`. Consumers install reviewed versioned tarballs; no sibling-source imports are required.
 
 The hosted playground is isolated from customer verification, onboarding and payment eligibility. Public demonstrations keep state in memory and suppress recording. Provider credentials and launch secrets must never be persisted by a browser client. Test keyboard controls, 320/390/768px layouts and reduced motion as well as physical iOS Safari and Android Chrome.
+
+
+## Standalone repository
+
+This product is maintained at [in-app-otp](https://github.com/splitintech/in-app-otp). Clone this repository and run the documented setup from its root. The npm/package and API identities are preserved. See [migration provenance](docs/migration.md) and [contributing](CONTRIBUTING.md). See [release setup](docs/repository-release.md); publishing starts disabled pending external configuration.
